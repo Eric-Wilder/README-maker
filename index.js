@@ -35,7 +35,7 @@ inquirer
     {
         type: "input",
         message: "Tests?",
-        name: "test"
+        name: "tests"
     },
     {
         type: "input",
@@ -49,21 +49,38 @@ inquirer
     }
     ])
     .then(function ({ title, describe, install, usage, license, contribute, tests, email, github }) {
-        console.log(title, describe, install, usage, license, contribute, tests, email, github);
+        //console.log(title, describe, install, usage, license, contribute, tests, email, github);
         const readMeString = `# ${title}
         ${describe}
-        ## Installation
+
+## Table of Contents
+
+[Installation](#Installation)
+[Usage](#Usage)
+[License](#License)
+[Contributing](#Contributing)
+[Tests](#Tests)
+[Questions?](#Questions?)
+
+## Installation
         ${install}
-        ## Usage
+
+## Usage
         ${usage}
-        ## License
+
+## License
         ${license}
-        ## Contributing
+
+## Contributing
         ${contribute}
-        ## Tests
+
+## Tests
         ${tests}
-        ## Questions?
-        Please contact me here: ${email} or my GitHub: ${github}`;
+
+## Questions?
+        Please contact me here: ${email} or my GitHub: ${github}
+
+`;
 
         function writeFile(fileName, data) {
             fs.writeFile(fileName, data, err => {
