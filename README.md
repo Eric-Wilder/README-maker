@@ -31,5 +31,5 @@
         sample
 
 ## Questions?
-        Please contact me here: sample@gmail or my GitHub: sample-sample
+        Please contact me here: sample or my [GitHub](https://github.com/Eric-Wilder)
 

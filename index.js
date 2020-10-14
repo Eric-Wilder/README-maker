@@ -83,7 +83,7 @@ inquirer
         ${tests}
 
 ## Questions?
-        Please contact me here: ${email} or my GitHub: ${github}
+        Please contact me here: ${email} or my [GitHub](https://github.com/${github})
 
 `;
 
