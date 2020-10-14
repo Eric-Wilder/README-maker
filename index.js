@@ -4,59 +4,59 @@ const inquirer = require("inquirer");
 inquirer
     .prompt([{
         type: "input",
-        message: "Type project title",
+        message: "Type project title: ",
         name: "title",
     },
     {
         type: "input",
-        message: "Type project description",
+        message: "Type project description: ",
         name: "describe"
     },
     {
         type: "input",
-        message: "Type installation instructions",
+        message: "Type installation instructions: ",
         name: "install"
     },
     {
         type: "input",
-        message: "Enter insallation code",
+        message: "Enter insallation code: ",
         name: "installCode"
     },
     {
         type: "input",
-        message: "Type usage instructions",
+        message: "Type usage instructions: ",
         name: "usage"
     },
     {
         type: "input",
-        message: "Enter license",
+        message: "Enter license: ",
         name: "license"
     },
     {
         type: "input",
-        message: "Enter contributing",
+        message: "Enter contributing: ",
         name: "contribute"
     },
     {
         type: "input",
-        message: "Tests?",
+        message: "Tests? ",
         name: "tests"
     },
     {
         type: "input",
-        message: "Enter email",
+        message: "Enter email: ",
         name: "email"
     },
     {
         type: "input",
-        message: "Enter GitHub",
+        message: "Enter GitHub: ",
         name: "github"
     }
     ])
     .then(function ({ title, describe, install, installCode, usage, license, contribute, tests, email, github }) {
         //console.log(title, describe, install, usage, license, contribute, tests, email, github);
         const readMeString = `# ${title}
-        ${describe}
+${describe}
 
 ## Table of Contents
 
@@ -74,6 +74,7 @@ inquirer
 
 ## Installation
 ${install}
+
         ${installCode}
 
 ## Usage

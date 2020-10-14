@@ -1,5 +1,5 @@
 # sample title
-        sample description
+sample description
 
 ## Table of Contents
 
@@ -17,6 +17,7 @@
 
 ## Installation
 sample
+
         sample code
 
 ## Usage
