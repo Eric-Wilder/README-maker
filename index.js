@@ -19,6 +19,11 @@ inquirer
     },
     {
         type: "input",
+        message: "Enter insallation code",
+        name: "installCode"
+    },
+    {
+        type: "input",
         message: "Type usage instructions",
         name: "usage"
     },
@@ -48,7 +53,7 @@ inquirer
         name: "github"
     }
     ])
-    .then(function ({ title, describe, install, usage, license, contribute, tests, email, github }) {
+    .then(function ({ title, describe, install, installCode, usage, license, contribute, tests, email, github }) {
         //console.log(title, describe, install, usage, license, contribute, tests, email, github);
         const readMeString = `# ${title}
         ${describe}
@@ -69,6 +74,7 @@ inquirer
 
 ## Installation
 ${install}
+        ${installCode}
 
 ## Usage
 ${usage}
