@@ -16,20 +16,20 @@
 [Questions?](#Questions?)
 
 ## Installation
-        sample
+    sample
 
 ## Usage
-        sample
+    sample
 
 ## License
-        sample
+    sample
 
 ## Contributing
-        sample
+    sample
 
 ## Tests
-        sample
+    sample
 
 ## Questions?
-        Please contact me here: sample or my [GitHub](https://github.com/Eric-Wilder)
+    Please contact me here: sample@gmail or my [GitHub](https://github.com/Eric-Wilder)
 

@@ -68,22 +68,22 @@ inquirer
 [Questions?](#Questions?)
 
 ## Installation
-        ${install}
+    ${install}
 
 ## Usage
-        ${usage}
+    ${usage}
 
 ## License
-        ${license}
+    ${license}
 
 ## Contributing
-        ${contribute}
+    ${contribute}
 
 ## Tests
-        ${tests}
+    ${tests}
 
 ## Questions?
-        Please contact me here: ${email} or my [GitHub](https://github.com/${github})
+    Please contact me here: ${email} or my [GitHub](https://github.com/${github})
 
 `;
 
