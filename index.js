@@ -56,10 +56,15 @@ inquirer
 ## Table of Contents
 
 [Installation](#Installation)
+
 [Usage](#Usage)
+
 [License](#License)
+
 [Contributing](#Contributing)
+
 [Tests](#Tests)
+
 [Questions?](#Questions?)
 
 ## Installation
@@ -90,5 +95,5 @@ inquirer
             });
         }
         writeFile("README.md", readMeString);
-
+        console.log("README.md file created!")
     });
