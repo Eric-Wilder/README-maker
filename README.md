@@ -1,4 +1,5 @@
 # README-maker
+<<<<<<< HEAD
         <h1>README Generator</h1>
         Application that generates a README file
         <h2>Installation</h2>
