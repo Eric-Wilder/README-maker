@@ -50,20 +50,19 @@ inquirer
     ])
     .then(function ({ title, describe, install, usage, license, contribute, tests, email, github }) {
         console.log(title, describe, install, usage, license, contribute, tests, email, github);
-        const readMeString = `# README-maker
-        <h1>${title}</h1>
+        const readMeString = `# ${title}
         ${describe}
-        <h2>Installation</h2>
+        ## Installation
         ${install}
-        <h2>Usage</h2>
+        ## Usage
         ${usage}
-        <h2>License</h2>
+        ## License
         ${license}
-        <h2>Contributing</h2>
+        ## Contributing
         ${contribute}
-        <h2>Tests</h2>
+        ## Tests
         ${tests}
-        <h2>Questions?</h2>
+        ## Questions?
         Please contact me here: ${email} or my GitHub: ${github}`;
 
         function writeFile(fileName, data) {
