@@ -1,5 +1,5 @@
 # README Maker
-A command line application that allows you to generate a README.md file
+A command line application that allows you to generate a README.md file, using node.js (Note: This README file was created using said application)
 
 ## Table of Contents
 
