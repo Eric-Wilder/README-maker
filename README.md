@@ -1,5 +1,5 @@
-# sample title
-sample description
+# README Maker
+A command line application that allows you to generate a README.md file
 
 ## Table of Contents
 
@@ -16,22 +16,25 @@ sample description
 [Questions?](#Questions?)
 
 ## Installation
-sample
+inquirer module mush be installed
 
-        sample code
+        npm install inquirer
 
 ## Usage
-sample
+Run the program in your terminal and complete the prompts
 
 ## License
-sample
+n/a
 
 ## Contributing
-sample
+Welcome to contribute to this application
 
 ## Tests
-sample
+n/a
+
+## Demo
+[Video Demonstration](https://youtu.be/5gY0SsAkCLM)
 
 ## Questions?
-Please contact me here: sample@gmail or my [GitHub](https://github.com/Eric-Wilder)
+Please contact me here: erw88@yahoo.com or my [GitHub](https://github.com/Eric-Wilder)
 
